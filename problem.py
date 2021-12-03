@@ -6,9 +6,9 @@ import rampwf as rw
 
 from sklearn.model_selection import StratifiedShuffleSplit
 
-problem_title = 'Autism Spectrum Disorder classification'
+problem_title = 'AHDH classification'
 
-_target_column_name = 'asd'
+_target_column_name = 'ahdh'
 _prediction_label_names = [0, 1]
 
 Predictions = rw.prediction_types.make_multiclass(
