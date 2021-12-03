@@ -43,3 +43,11 @@ Then, you can activate the environment using:
 ```
 conda activate autism
 ```
+
+
+for Linux and MacOS. In Windows, use the following command instead:
+
+```
+activate autism
+```
+
