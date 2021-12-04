@@ -1,6 +1,9 @@
 # Brainhack Global 2021
 ## IMaging-PsychiAtry Challenge (IMPAC): Predicting neurodevelopmental disorders from MRI data
 
+## Data
+* The Autism Brain Imaging Data Exchange (ABIDE) 
+* Attention Deficit Hyperactivity Disorder (ADHD-200) 
 
 ## Getting started
 
