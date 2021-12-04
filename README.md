@@ -2,8 +2,11 @@
 ## IMaging-PsychiAtry Challenge (IMPAC): Predicting neurodevelopmental disorders from MRI data
 
 ## Data
+We merged two preprocessed datasets:
 * The Autism Brain Imaging Data Exchange (ABIDE) 
 * Attention Deficit Hyperactivity Disorder (ADHD-200) 
+
+And indicated neurodevelopmental disorders in feature `fx` as 0 for control and 1 for diagnosed subjects. 
 
 ## Getting started
 
