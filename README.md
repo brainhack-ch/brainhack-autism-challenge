@@ -1,6 +1,9 @@
 # Brainhack Global 2021
 ## IMaging-PsychiAtry Challenge (IMPAC): Predicting neurodevelopmental disorders from MRI data
 
+## Team
+Iuliia Nikolaenko, Nicolas Traut , Franklin Leong, Despina Demenega, Inés Moreno, Baicai Ye, Juliette Faure, Fares Alouf, Marko Čuljak
+
 ## Data
 We merged two preprocessed datasets:
 * The Autism Brain Imaging Data Exchange (ABIDE) 
