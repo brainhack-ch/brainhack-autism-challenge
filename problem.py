@@ -6,9 +6,9 @@ import rampwf as rw
 
 from sklearn.model_selection import StratifiedShuffleSplit
 
-problem_title = 'ADHD classification'
+problem_title = 'Neurodevelopmental classification'
 
-_target_column_name = 'adhd'
+_target_column_name = 'dx'
 _prediction_label_names = [0, 1]
 
 Predictions = rw.prediction_types.make_multiclass(
@@ -59,8 +59,8 @@ def _read_data(path, filename):
     X = pd.concat([df_participants, df_anatomy, df_anatomy_qc, df_fmri,
                    df_fmri_qc, df_fmri_tr], axis=1)
     X = X.loc[subject_id[0]]
-    y = X['participants_adhd']
-    X = X.drop('participants_adhd', axis=1)
+    y = X['participants_dx']
+    X = X.drop('participants_dx', axis=1)
 
     return X, y.values
 
