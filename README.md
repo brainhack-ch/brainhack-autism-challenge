@@ -6,7 +6,7 @@ We merged two preprocessed datasets:
 * The Autism Brain Imaging Data Exchange (ABIDE) 
 * Attention Deficit Hyperactivity Disorder (ADHD-200) 
 
-And indicated neurodevelopmental disorders in feature `fx` as 0 for control and 1 for diagnosed subjects. 
+And indicated neurodevelopmental disorders in feature `fx` as 0 for control and 1 for diagnosed subjects. In `dataset` you will find the source of the data ABIDE/ADHD-200.
 
 ## Getting started
 
